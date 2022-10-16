@@ -1,0 +1,67 @@
+/* Text  */
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* Colors */
+.bg-dark-blue{
+    background: rgb(53, 0, 0);
+}
+.bg-light-blue{
+    background: rgb(118, 79, 79);
+}
+/* Button */
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+}
+.btn-primary{
+    background: rgb(180, 0, 0);;
+}
+.btn-primary:hover{
+    background: white;
+    color: rgb(180, 0, 0);;
+    border: 2px solid rgb(180, 0, 0);
+}
+.btn-dark{
+    background: rgb(53, 0, 0);
+}
+.btn-dark:hover{
+    background: white;
+    color: rgb(53, 0, 0);;
+    border: 2px solid rgb(53, 0, 0);
+}
+.btn-block{
+    height: 100%;
+    text-align: center;
+}
+
+/* Container */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* Forms */
+.form-groups{
+    padding: 0.25rem 0; 
+}
+.form-groups .label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.0rem;
+    resize: none;
+    border-radius: 7px;
+}
